@@ -19,4 +19,9 @@ public class SimpleAction {
         System.out.println("Metodo1");
         return "success";
     }
+    
+    public String metodo2(){
+        System.out.println("Metodo2");
+        return "success";
+    }    
 }
