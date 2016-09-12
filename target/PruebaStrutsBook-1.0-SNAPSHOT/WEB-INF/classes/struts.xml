@@ -6,8 +6,8 @@
 <struts>
     <constant name="struts.devMode" value="true"/>
     <package name="PruebaStrutsBook" namespace="/" extends="struts-default">
-        <action name="simple"  method="metodo1" class="com.whileapp.pruebastrutsbook.action.SimpleAction">
-            <result>jsps/verysimple.jsp</result>
+        <action name="*">
+            <result>jsps/{1}.jsp</result>
         </action>
  
     </package>
