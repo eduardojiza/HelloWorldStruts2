@@ -11,6 +11,12 @@ package com.whileapp.pruebastrutsbook.action;
  */
 public class SimpleAction {
     public String execute(){
+        System.out.println("execute");
+        return "success";
+    }
+    
+    public String metodo1(){
+        System.out.println("Metodo1");
         return "success";
     }
 }
